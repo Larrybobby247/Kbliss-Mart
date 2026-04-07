@@ -39,7 +39,7 @@ const TopProds = () => {
                     {product.price}
                   </h3>
                   <button className="btn-primary">
-                    <a href="https://wa.me/2349055566878">Buy Now</a>
+                    <a href="https://wa.me/2349055666878">Buy Now</a>
                   </button>
                 </div>
               </div>

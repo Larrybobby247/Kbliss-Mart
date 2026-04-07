@@ -64,7 +64,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="flex items-center gap-2 lg:gap-8">
-        <button className="btn-primary"><a href="https://wa.me/2349055566878">Place Order</a></button>
+        <button className="btn-primary"><a href="https://wa.me/2349055666878">Place Order</a></button>
         <div
           className={`lg:hidden text-3xl cursor-pointer ${nav ? "hidden" : "block"}`}
           onClick={() => setNav(true)}
