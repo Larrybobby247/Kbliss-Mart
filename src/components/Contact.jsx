@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='flex flex-col gap-8 lg:flex-row lg:justify-between items-center' id='contact-us'>
       <div className='w-full lg:w-full'>
-        <img src={Img} alt="" className='h-100 w-full object-cover rounded-sm'/>
+        <img src={Img} alt="" className='h-[420px] w-full object-cover rounded-sm'/>
       </div>
       <div className='flex flex-col gap-3 ' data-aos="fade-left">
         <h3 className='text-xl font-medium'>Get In Touch</h3>

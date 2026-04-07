@@ -52,7 +52,7 @@ const Services = () => {
         <h1 className="text-3xl font-bold">Why Choose Us</h1>
         <p className="text-grey">Making your purchase seamless with no delay</p>
       </div>
-      <div className="flex flex-col gap-6 lg:flex-row" id="services">
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-6" id="services">
         {ServiceLists.map((service) => {
           return (
             <div
